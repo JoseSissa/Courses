@@ -1,0 +1,5 @@
+{
+    "require": {
+        "symfony/debug-pack": "^1.0"
+    }
+}
