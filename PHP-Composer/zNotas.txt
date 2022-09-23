@@ -1,0 +1,2 @@
+Composer -> Herrameinta para manejar las dependencias de PHP
+Packagist -> Es nuestro buscador 

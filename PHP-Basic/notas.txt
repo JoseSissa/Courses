@@ -1,0 +1,22 @@
+Variables globales de PHP
+$_GET
+$_POST
+$_REQUEST
+$_FILES
+
+Al enviar formulario en HTML encritamos con (application/x-www-form-urlencoded)
+Sin embargo cuando trabajamos con archivos debemos encriptar con (multipart/form-data)
+
+ENVÍO DE INPUTS
+Podemos usar varios inputs para generar un arreglo
+<input type="text" name="personas[]">
+<input type="email" name="personas[]">
+<input type="text" name="personas[]">
+
+Podemos también usar arreglos asociativos
+<input type="text" name="personas[nombre]">
+<input type="email" name="personas[email]">
+<input type="text" name="personas[telefono]">
+
+Inputs para enviar múltiples archivos
+<input type="file" multiple name="fotos[]">
