@@ -102,3 +102,13 @@ const search = (query) => {
 console.log(search('hol'));
 
 console.log(console);
+
+
+// -------------------
+
+const values = [2, 3, 4, 5];
+const initialValueOfSum = 0;
+const t = values.reduce((elem, sum) => {
+  return sum + elem;
+}, initialValueOfSum);
+console.log(t);
