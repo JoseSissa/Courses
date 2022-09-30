@@ -108,7 +108,7 @@ console.log(console);
 
 const values = [2, 3, 4, 5];
 const initialValueOfSum = 0;
-const t = values.reduce((elem, sum) => {
+const t = values.reduce((sum, elem ) => {
   return sum + elem;
 }, initialValueOfSum);
 console.log(t);
