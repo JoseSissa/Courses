@@ -112,3 +112,49 @@ const t = values.reduce((sum, elem ) => {
   return sum + elem;
 }, initialValueOfSum);
 console.log(t);
+
+
+// Some
+
+const num = [1, 2, 3, 4];
+
+const respuesta = num.some(elem => elem % 2 == 0 );
+console.log(respuesta);
+
+const solution = ([1, 3, 5, 7, 10, 11]);
+const solution2 = ([1, 3, 5]);
+
+const resSome = solution => solution.some(elem => elem % 2 == 0);
+console.log(resSome(solution));
+
+
+// Includes
+// En este desafío vas a tener un string y debes buscar si ese string tiene un término de búsqueda,
+// por ejemplo verificar si dentro de la frase "Ana lava la tina" está el término "ana" 
+// y si lo tiene retornar un true de lo contrario retornar un false, debes tener en cuenta que 
+// debe encontrar coincidencias, así la el término de búsqueda sea mayúscula o minúscula.
+// La solución debería tener un input y output como los siguientes:
+const words = "Ana lava la tina";
+const query = "ana";
+
+function fIncludes(words, query) {
+  console.log(words.toLowerCase().includes(query.toLowerCase()));
+};
+fIncludes(words, query);
+
+
+// Join
+
+// En este desafío vas a recibir el título de un artículo y tú debes transformarlo en un formato de 
+// URL en donde normalmente se transforma todo en minúscula y se cambian los espacios por un guion (-), 
+// por ejemplo: Curso de arrays => curso-de-arrays
+// La solución debería tener un input y output como los siguientes:
+
+let array1 = ("La forma de correr Python");
+let array2 = ("La API para nunca parar de aprender");
+let array3 = ("Curso de arrays");
+
+function fJoin(text) {
+  return text.toLocaleLowerCase().split(' ').join('-');
+}
+console.log(fJoin(array1));
