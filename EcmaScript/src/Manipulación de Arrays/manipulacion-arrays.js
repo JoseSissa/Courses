@@ -188,3 +188,18 @@ function recursividad(array) {
 };
 const resRecursividad = recursividad(matriz2);
 console.log('Recursividad', resRecursividad);
+
+// 
+
+const solutionWords = [
+  "Beautiful is better than ugly",
+  "Explicit is better than implicit",
+  "Simple is better than complex",
+  "Complex is better than complicated",
+];
+
+
+function numWords(text) {
+  return text.split(' ').join('').length;
+}
+solutionWords.map(elem => console.log(numWords(elem)));
