@@ -158,3 +158,33 @@ function fJoin(text) {
   return text.toLocaleLowerCase().split(' ').join('-');
 }
 console.log(fJoin(array1));
+
+const t1 = "Hola";
+const t2 = "mundo";
+console.log([...t1, ...t2]);
+
+
+// ESTO DE ABAJO ES LO QUE HACE EL MÉTODO FLAT PERO CON MI PROPIA FUNCION DE FORMA RECURSIVA
+
+const matriz = [
+  [1, 2, 3],
+  [4, 5, 6, [7, 8, [9, 10, 11]]],
+  [12, 13, 14]
+];
+const matriz2 = [
+  1,
+  [1,2,3],
+  [4,5,6],
+  [7,8,[9,10,[11,12]]]
+];
+function recursividad(array) {
+  let newArray = [];
+  for (const elem of array) {
+    Array.isArray(elem)
+      ? newArray = newArray.concat(recursividad(elem))
+      : newArray.push(elem);
+  }
+  return newArray;
+};
+const resRecursividad = recursividad(matriz2);
+console.log('Recursividad', resRecursividad);
