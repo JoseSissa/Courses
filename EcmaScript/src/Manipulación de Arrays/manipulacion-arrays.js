@@ -203,3 +203,12 @@ function numWords(text) {
   return text.split(' ').join('').length;
 }
 solutionWords.map(elem => console.log(numWords(elem)));
+
+// Examples
+// const array = ['a', 'bb', 'ccc']; 
+// const rta = array.map(item => item.length);
+// console.log(rta);
+
+// const array = [['🐸','🐱'],'🐹', ['🐯']]; 
+// const rta = array.flat();
+// console.log(rta);
