@@ -31,4 +31,4 @@ const setObserver = () => {
     observer.observe(images.lastElementChild)
 }
 
-getImages()
+getImages();
