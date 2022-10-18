@@ -1,4 +1,6 @@
 {
+    "name": "jose",
+    "description": "Proyecto de validación",
     "autoload": {
         "psr-4": {
             "App\\": "src/"
