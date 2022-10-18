@@ -1,3 +1,5 @@
+<?php
+
 #Alterar
 $text = "<h1>PHP es UN LENGUAJE</h1>";
 echo $text;
