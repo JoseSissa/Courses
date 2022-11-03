@@ -1,0 +1,8 @@
+✅ docker ps >>> Ver los contenedores que están corriendo ahora mismo
+✅ docker ps -a >>> El (-a) significa all / Muestra los container tanto que están corriendo como los que no
+✅ docker inpect (CONTAINER-ID) >>> Se ve la información del container (También se puede cambiar el CONTAINER-ID por el NAMES *Sacado de ejecutar el comando anterior*)
+✅ docker run --name mi-nombre hello-world >>> Para cambiarle/agregarle un nombre deseado a un container (En este casop cambia el nombre hello-world por mi-nombre)
+✅ docker rename mi-nombre mi-otro-nombre >>> Renombrar un container
+
+✅ docker rm (CONTAINER-ID or NAME) >>> Eliminar un container
+✅ docker container prune >>> Eliminamos todos los containers DETENIDOS
