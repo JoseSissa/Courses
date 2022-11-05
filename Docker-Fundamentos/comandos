@@ -1,8 +1,27 @@
+✅ docker run (CONTAINER) >>> Correr/Ejecutar un container
 ✅ docker ps >>> Ver los contenedores que están corriendo ahora mismo
 ✅ docker ps -a >>> El (-a) significa all / Muestra los container tanto que están corriendo como los que no
-✅ docker inpect (CONTAINER-ID) >>> Se ve la información del container (También se puede cambiar el CONTAINER-ID por el NAMES *Sacado de ejecutar el comando anterior*)
+✅ docker inspect (CONTAINER-ID) >>> Se ve la información del container (También se puede cambiar el CONTAINER-ID por el NAMES *Sacado de ejecutar el comando anterior*)
 ✅ docker run --name mi-nombre hello-world >>> Para cambiarle/agregarle un nombre deseado a un container (En este casop cambia el nombre hello-world por mi-nombre)
 ✅ docker rename mi-nombre mi-otro-nombre >>> Renombrar un container
 
 ✅ docker rm (CONTAINER-ID or NAME) >>> Eliminar un container
 ✅ docker container prune >>> Eliminamos todos los containers DETENIDOS
+
+✅ docker run -it (CONTAINER) >>> Modo interactivo
+✅ exit >>> Salimos del modo anterior
+✅ docker stop (CONTAINER-ID or NAME) >>> Detener un container
+✅ docker rm -f (CONTAINER-ID or NAME) >>> Detener y elimina un container
+
+✅ docker run --name proxy -p 8080:80 >>> Nos permite definir el puerto (El de la izquierda, el de mi equipo, el de la derecha el del container)
+✅ docker run --name proxy -d -p 8080:80 >>> El (-d) es para que corra en background y no nos bloquee la consola
+✅ docker logs (CONTAINER-ID or NAME) >>> Logs de todas las peticiones que yo hice
+✅ docker logs -f (CONTAINER-ID or NAME) >>> Queda escuchando para que me muestre todos los logs que se hagan en tiempo real
+
+✅ docker image ls >>> Ver las imágenes en nuestro docker
+✅ docker 
+✅ docker 
+✅ docker 
+✅ docker 
+✅ docker 
+✅ docker 
