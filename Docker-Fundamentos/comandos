@@ -19,9 +19,11 @@
 ✅ docker logs -f (CONTAINER-ID or NAME) >>> Queda escuchando para que me muestre todos los logs que se hagan en tiempo real
 
 ✅ docker image ls >>> Ver las imágenes en nuestro docker
-✅ docker 
-✅ docker 
-✅ docker 
-✅ docker 
-✅ docker 
-✅ docker 
+✅ docker pull (NAME):#version >>> Ejem: docker pull node:16 -> Nos descargará la imáges de docker en la version que le especificamos, si no le pnemos version descargará la última
+✅ docker image rm (CONTAINER-ID or NAME) >>> Eliminar imagenes
+
+✅ docker create (NAME) / docker container create (NAME) >>> Nos sirve para crear un container. ambos comandos hacen lo mismo
+✅ docker start (ID) >>> Para iniciar el contenedor
+✅ docker stop (ID) >>> Para detener el container
+✅ docker create --name (MY PERSONAL NAME) (NAME OF BASE IMAGE) >>> Ejem: docker create --name monguito mongo 
+✅ docker create -p8080:80 --name (MY PERSONAL NAME) (NAME OF BASE IMAGE) >>> Nos permite definir el puerto (El de la izquierda, el de mi equipo, el de la derecha el del container)
