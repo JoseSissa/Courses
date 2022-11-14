@@ -1,0 +1,4 @@
+Greetings -> (Saludos)
+Farewells -> (Despedidas)
+* See you later
+* Take care -> (Cuidate)
