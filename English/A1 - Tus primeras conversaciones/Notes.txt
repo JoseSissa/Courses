@@ -3,6 +3,9 @@
 Grass -> The word starts with the letter G -> Césped
 My name is Spelled : Jose -> (Está escrito)
 Kittens -> Gatitos
+Schedule -> Calendario
+Cushions -> Cojines
+Vase -> Jarrón
 
 ===================== GREETINGS AND FAREWELLS ============================
 
@@ -47,3 +50,7 @@ across -> a través de
 opposite -> Opuesto
 out of -> fuera de
 towards -> Hacia
+
+==================== HOBBIES ==========================
+
+I like to cook -> (Cocinar)
