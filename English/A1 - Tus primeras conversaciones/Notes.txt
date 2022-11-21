@@ -6,6 +6,7 @@ Kittens -> Gatitos
 Schedule -> Calendario
 Cushions -> Cojines
 Vase -> Jarrón
+Cook dinner -> Hacer la cena
 
 ===================== GREETINGS AND FAREWELLS ============================
 
@@ -17,7 +18,7 @@ Farewells -> (Despedidas)
 Introducing yourself
 Hello,
 My name is Jose
-My last name is spelled: J O S E
+My last name is spelled: S I S S A
 I'm 25 years old
 I am from Colombia
 
@@ -54,3 +55,25 @@ towards -> Hacia
 ==================== HOBBIES ==========================
 
 I like to cook -> (Cocinar)
+
+==================== ADVERBS OF FREQUENCY ==========================
+
+>> 100% Always
+>> 90% Usually
+>> 80% Frequently
+>> 70% Often
+>> 30% Occasionally 
+>> 10% Seldom -> Raramente
+>> 5% Rarely  -> Poco frecuente 
+>> 0% Never
+
+Rules for adverbs of frequency:
+
+* NOUN + FREQUENCY + ACTION For example >>> I never drink coffe
+
+There is an exception with  SOMETIMES:
+* FREQUENCY + NOUN + ACTION For example >>> Sometimes I go to beach
+
+Sometimes they watch tv in the afternoon.
+The baby rarely cries
+I usually go to work at 7 o'clock
