@@ -1,4 +1,4 @@
-// import fetch from 'node-fetch'
+// API => https://fakeapi.platzi.com/doc/products
 
 const API = 'https://api.escuelajs.co/api/v1'
 
