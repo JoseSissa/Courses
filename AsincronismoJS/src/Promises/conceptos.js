@@ -3,12 +3,12 @@ const promise = new Promise((resolve, reject) => {
     resolve('Todo ha salido correcto')
 });
 // Estructura básica de una promesa
-const cows = 12;
+const cows = 2;
 const countCows = new Promise((resolve, reject) => {
     if(cows > 10) {
         resolve(`We have ${cows} cows on the farm.`)
     }else {
-        reject('There is not cown on the farm.')
+        reject(Error)
     }
 });
 
