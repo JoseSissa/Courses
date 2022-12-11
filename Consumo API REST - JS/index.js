@@ -3,15 +3,6 @@
 
 const flags = document.getElementById('flags')
 const urlAPI = 'https://restcountries.com/v2/'
-// const urlAPI = 'https://restcountries.com/v2/name/colombia'
-
-// fetch(`${urlAPI}/name/colombia`)
-//     .then(res => res.json())
-//     .then(res => {
-//         flag1.src = res[0].flag
-//         console.log('Response since fetch promises ', res)
-//     })
-
 const getData = async (urlAPI) => {
     let res = await fetch(`${urlAPI}/lang/es`)
     res = await res.json()
@@ -27,3 +18,18 @@ const getData = async (urlAPI) => {
     flags.appendChild(fragment)
 }
 getData(urlAPI)
+
+const uploadPicture = async () => {
+    const form = document.getElementById('uploadingForm')
+    const formData = new FormData(form)
+    const res = fetch('https://api.thecatapi.com/v1/images/upload', {
+        method: 'POST',
+        headers: {
+            // 'Content-Type': 'multipart/form-data',
+            'X-API-KEY': 'c08d415f-dea7-4a38-bb28-7b2188202e46'
+        },
+        body: formData
+    })
+
+    console.log(res);
+}
